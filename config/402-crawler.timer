@@ -1,0 +1,9 @@
+[Unit]
+Description=Periodically trigger the 402 crawler
+
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=20m
+
+[Install]
+WantedBy=timers.target

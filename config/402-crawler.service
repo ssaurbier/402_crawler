@@ -1,0 +1,7 @@
+[Unit]
+Description=Crawl 402 endpoints
+
+[Service]
+Type=oneshot
+WorkingDirectory=/home/twenty/402-crawler
+ExecStart=/usr/bin/python3 /home/twenty/402-crawler/crawl.py
